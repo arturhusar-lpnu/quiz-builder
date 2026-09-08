@@ -1,0 +1,25 @@
+.page {
+  width: min(100% - 48px, 860px);
+  margin: 0 auto;
+  padding: 48px 0 64px;
+  color: #2d2e3a;
+  text-align: left;
+}
+
+.state {
+  width: min(100% - 48px, 860px);
+  margin: 48px auto;
+  border: 1px solid #e1e0eb;
+  border-radius: 14px;
+  padding: 28px;
+  color: #77788c;
+  background: #fff;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .page, .state {
+    width: min(100% - 32px, 860px);
+  }
+  .page { padding-top: 32px; }
+}

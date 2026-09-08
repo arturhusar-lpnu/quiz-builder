@@ -1,0 +1,43 @@
+.dashboard {
+  width: min(100% - 48px, 1000px);
+  margin: 0 auto;
+  padding: 54px 0 64px;
+  color: #2d2e3a;
+  text-align: left;
+}
+
+.intro {
+  margin-bottom: 34px;
+}
+
+.eyebrow {
+  margin: 0 0 10px;
+  color: #2563eb;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.title {
+  margin: 0;
+  color: #20212b;
+  font-size: clamp(32px, 5vw, 46px);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 1.05;
+}
+
+.subtitle {
+  max-width: 520px;
+  margin-top: 14px;
+  color: #73758a;
+  font-size: 16px;
+}
+
+@media (max-width: 600px) {
+  .dashboard {
+    width: min(100% - 32px, 1000px);
+    padding-top: 36px;
+  }
+}

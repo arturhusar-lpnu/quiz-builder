@@ -1,0 +1,30 @@
+.button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 28px;
+  height: 28px;
+  border: 0;
+  border-radius: 50%;
+  color: #9899aa;
+  background: transparent;
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.2s, background-color 0.2s, color 0.2s;
+}
+
+.button[data-visible="true"],
+.button:focus-visible {
+  opacity: 1;
+}
+
+.button:hover:not(:disabled) {
+  color: #d14d68;
+  background: #fff0f2;
+}
+
+.button:disabled {
+  cursor: not-allowed;
+}

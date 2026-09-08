@@ -1,0 +1,10 @@
+.editor { display: grid; gap: 8px; }
+.option { display: grid; grid-template-columns: 20px 1fr 28px; align-items: center; gap: 8px; }
+.option input[type="text"] { width: 100%; box-sizing: border-box; border: 1px solid #d8d7e4; border-radius: 8px; padding: 10px; color: #292a35; background: #fff; font: inherit; font-size: 14px; outline: none; }
+.option input[type="text"]:focus { border-color: #3b82f6; box-shadow: 0 0 0 3px rgb(37 99 235 / 12%); }
+.option button { width: 28px; height: 28px; border: 0; border-radius: 50%; color: #9a6a75; background: transparent; font-size: 18px; cursor: pointer; }
+.option button:hover:not(:disabled) { background: #fff0f2; }
+.option button:disabled { cursor: not-allowed; opacity: 0.35; }
+.add { justify-self: start; border: 0; padding: 7px 2px; color: #1d4ed8; background: transparent; font: inherit; font-size: 13px; font-weight: 750; cursor: pointer; }
+.add:hover:not(:disabled) { color: #4229c2; }
+.add:disabled { cursor: not-allowed; opacity: 0.5; }

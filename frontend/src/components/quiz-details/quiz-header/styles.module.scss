@@ -1,0 +1,2 @@
+.header { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; margin-bottom: 30px; }
+@media (max-width: 600px) { .header { align-items: stretch; flex-direction: column; gap: 18px; } }

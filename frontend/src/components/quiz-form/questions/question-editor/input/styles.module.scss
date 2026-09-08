@@ -1,0 +1,4 @@
+.editor { display: grid; gap: 8px; }
+.editor label { color: #55566a; font-size: 13px; font-weight: 700; }
+.input { width: 100%; box-sizing: border-box; border: 1px solid #d8d7e4; border-radius: 9px; padding: 11px 12px; color: #292a35; background: #fff; font: inherit; font-size: 14px; outline: none; }
+.input:focus { border-color: #3b82f6; box-shadow: 0 0 0 3px rgb(37 99 235 / 12%); }

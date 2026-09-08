@@ -1,0 +1,11 @@
+.viewer { display: grid; gap: 14px; }
+.item { border: 1px solid #e1e0eb; border-radius: 15px; padding: 20px; background: #fff; box-shadow: 0 4px 12px rgb(37 31 74 / 4%); }
+.itemHeader { display: flex; align-items: center; gap: 10px; }
+.number { display: grid; width: 30px; height: 30px; flex-shrink: 0; place-items: center; border-radius: 9px; color: #1d4ed8; background: #eaf2ff; font-size: 13px; font-weight: 800; }
+.itemTitle { flex: 1; color: #292a35; font-size: 16px; font-weight: 750; overflow-wrap: anywhere; }
+.badge { border-radius: 999px; padding: 5px 9px; color: #1d4ed8; background: #eaf2ff; font-size: 10px; font-weight: 800; text-transform: uppercase; }
+.input { color: #23725e; background: #e7f8f1; }
+.checkbox { color: #9b681e; background: #fff4d9; }
+.itemBody { margin: 18px 0 0 40px; }
+.empty { border: 1px dashed #d7d6e5; border-radius: 14px; padding: 32px; color: #85869a; background: #fff; text-align: center; }
+@media (max-width: 520px) { .item { padding: 16px; } .itemHeader { align-items: flex-start; flex-wrap: wrap; } .itemTitle { flex-basis: calc(100% - 40px); } .itemBody { margin-left: 0; } }

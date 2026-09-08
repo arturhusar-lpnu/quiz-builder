@@ -1,0 +1,14 @@
+.editor { margin-top: 18px; border: 1px solid #bfdbfe; border-radius: 14px; padding: 18px; background: #f7fbff; }
+.questionTitle { display: grid; gap: 8px; }
+.questionTitle label { color: #55566a; font-size: 13px; font-weight: 700; }
+.questionTitle input { width: 100%; box-sizing: border-box; border: 1px solid #d8d7e4; border-radius: 9px; padding: 11px 12px; color: #292a35; background: #fff; font: inherit; font-size: 14px; outline: none; }
+.questionTitle input:focus { border-color: #3b82f6; box-shadow: 0 0 0 3px rgb(37 99 235 / 12%); }
+.body { margin-top: 18px; }
+.actions { display: flex; justify-content: flex-end; gap: 10px; margin-top: 20px; }
+.cancel, .submit { border: 0; border-radius: 8px; padding: 10px 15px; font: inherit; font-size: 13px; font-weight: 750; cursor: pointer; }
+.cancel { color: #66677b; background: #eeedf5; }
+.submit { color: #fff; background: #2563eb; }
+.cancel:hover:not(:disabled) { background: #e3e2ed; }
+.submit:hover:not(:disabled) { background: #1d4ed8; }
+.cancel:disabled, .submit:disabled { cursor: not-allowed; opacity: 0.55; }
+.error { margin: 14px 0 0; color: #bd3e57; font-size: 13px; }

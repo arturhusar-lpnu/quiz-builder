@@ -1,0 +1,9 @@
+model Quiz {
+  id        Int        @id @default(autoincrement())
+  title     String
+  questions Question[]
+
+  createdAt DateTime     @default(now())
+
+  @@map("quiz")
+}

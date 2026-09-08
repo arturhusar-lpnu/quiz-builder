@@ -1,0 +1,12 @@
+.summary { min-width: 0; }
+.header { display: flex; align-items: center; gap: 10px; }
+.title { color: #353646; font-size: 14px; font-weight: 750; overflow-wrap: anywhere; }
+.badge { border-radius: 999px; padding: 4px 8px; color: #1d4ed8; background: #eaf2ff; font-size: 10px; font-weight: 800; text-transform: uppercase; }
+.input { color: #23725e; background: #e7f8f1; }
+.checkbox { color: #9b681e; background: #fff4d9; }
+.body { margin-top: 9px; color: #85869a; font-size: 13px; }
+.answer { display: flex; gap: 5px; }
+.answer strong { color: #55566a; }
+.options { display: grid; gap: 4px; margin: 0; padding: 0; list-style: none; }
+.option { display: flex; align-items: center; gap: 7px; }
+.option[data-correct="true"] { color: #27735e; font-weight: 650; }

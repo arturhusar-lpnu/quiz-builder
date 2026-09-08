@@ -1,0 +1,55 @@
+.card {
+  min-height: 184px;
+  border-radius: 16px;
+  padding: 21px;
+  box-sizing: border-box;
+  background: #f1f1f7;
+  overflow: hidden;
+}
+
+.line,
+.button {
+  position: relative;
+  overflow: hidden;
+  border-radius: 6px;
+  background: #e3e2ed;
+}
+
+.line::after,
+.button::after {
+  position: absolute;
+  inset: 0;
+  content: "";
+  background: linear-gradient(90deg, transparent, rgb(255 255 255 / 55%), transparent);
+  animation: shimmer 1.4s infinite;
+  transform: translateX(-100%);
+}
+
+.title {
+  width: 72%;
+  height: 22px;
+}
+
+.description {
+  width: 48%;
+  height: 14px;
+  margin-top: 13px;
+}
+
+.meta {
+  width: 33%;
+  height: 12px;
+  margin-top: 12px;
+}
+
+.button {
+  width: 78px;
+  height: 36px;
+  margin-top: 35px;
+}
+
+@keyframes shimmer {
+  to {
+    transform: translateX(100%);
+  }
+}
